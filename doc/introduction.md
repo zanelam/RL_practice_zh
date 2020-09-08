@@ -1,6 +1,6 @@
 ### 强化学习是什么？
 
-强化学习Reinforce Learning解决的问题：（不完全可知的）Markov决策过程，交互式问题（interactive problem）
+强化学习Reinforcement Learning解决的问题：（不完全可知的）Markov决策过程，交互式问题（interactive problem）
 
 强化学习不同于监督学习supervised learning，也不同于无监督学习unsupervised learning
 
@@ -37,11 +37,11 @@ agent、environment、以及四个核心要素：policy、reward signal、value 
 
 ### 关于环境
 
-- fully observable environments：对应马尔可夫决策过程（Markov Decision Progress，MDP），
+- fully observable environments：对应马尔可夫决策过程（Markov Decision Process，MDP），
 
   agent state = environment state = information state = MDP state
 
-- partially observable environments：对应部分可观测马尔可夫决策过程（Partially Observable Markov Decision Progress，POMDP）
+- partially observable environments：对应部分可观测马尔可夫决策过程（Partially Observable Markov Decision Process，POMDP）
 
   此时agent state $\ne$ environment state
   
